@@ -1,0 +1,8 @@
+Question 1 write a rust program on the printing values assigned  to different variables belong to different data types.
+                  Ans:- // Assigning values to different variable types let integer: i32 =42; // Integer type let float_number: f64 =3.14; // Floating-point type let character: char = 'R'; // Character type let boolean: bool = true; // Boolean type let string_literal: &str = "Hello, Rust!"; // String literal type let tuple: (i32, f64, char) = (1,2.5, 'A'); // Tuple type // Printing the assigned values println!("Integer: {}", integer);  
+ println!("Floating-point number: {}", float_number);  
+ println!("Character: {}", character);  
+ println!("Boolean: {}", boolean);  
+ println!("String literal: {}", string_literal);  
+ println!("Tuple: {:?}", tuple); // Using {:?} to print the tuple}  
+
